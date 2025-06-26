@@ -93,6 +93,6 @@ body {
 footer {
   text-align: center;
   padding: 1em;
-  background-color: #e0e0e0;
+   background: linear-gradient(90deg, #ffb6c1, #ffc0cb);
   font-size: 0.9em;
 }
