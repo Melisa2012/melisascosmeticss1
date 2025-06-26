@@ -13,11 +13,21 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.navbar .logo {
-  font-size: 24px;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 22px;
   font-weight: bold;
-  color: #fff;
   letter-spacing: 1px;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 .nav-links ul {
